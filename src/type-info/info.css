@@ -1,0 +1,55 @@
+.Information {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: flex-start;
+    font-family: Mulish, serif;
+    font-style: normal;
+    width: 75rem;
+    margin-left: auto;
+    align-content: space-evenly;
+}
+
+.texting {
+    width: 480px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.illustration-container {
+    width: 380px;
+    height: 400px;
+    background: white;
+    box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustration {
+    width: 240px;
+    height: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.shape-contain {
+    mix-blend-mode: overlay;
+    transform: matrix(-0.93,0.37,0.37,0.37,0.93,0,0);
+    position: absolute;
+}
+.learn-more {
+    padding: 10px 25px;
+    justify-items: center;
+    border: 1.4px solid #FCB72B;
+    box-sizing: border-box;
+    border-radius: 55px;
+    color: #FCB72B;
+    font-size: 18px;
+    text-decoration: none;
+}

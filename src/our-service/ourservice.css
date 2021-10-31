@@ -1,0 +1,105 @@
+.service-section{
+    width: 75rem;
+    margin-left: auto;
+}
+.shape-container{
+    position: absolute;
+    justify-items: left;
+    mix-blend-mode: overlay;
+}
+.ourservice{
+    width: 100%;
+    margin-top: 60px;
+}
+.service-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.more-options{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 350px;
+    padding-top: 20px;
+}
+.inactive{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#DAA53A;
+    font-size: 20px;
+    margin-right: 10px;
+    background: #FFE8B9;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.active{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    font-size: 20px;
+    margin-right: 10px;
+    background: linear-gradient(180deg, rgba(255,109,55,0.58) 0%, #FFBD37 100%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.services{
+    display: block;
+    width: 380px;
+    height: 400px;
+    background: white;
+    box-shadow: 10px 24px 54px rgba(0,0,0,0.06);
+    border-radius: 20px;
+    font-family: Mulish, serif;
+    font-style: normal;
+}
+.service{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #233348;
+    text-align: left;
+}
+.image-container{
+    width: 200px;
+    height: 230px;
+}
+.value{
+    display: flex;
+justify-content: space-around;
+    align-items: center;
+}
+.prices{
+    display: block;
+}
+.prices h3{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #7D7987;
+}
+.prices p{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #233348;
+}
+.order-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(255, 189, 55, 0.58) 0%, #FFBD37 100%);
+    border-radius: 100px;
+    width: 109px;
+    height: 40px;
+}
+.order-button a{
+    text-decoration: none;
+    color: black;
+}

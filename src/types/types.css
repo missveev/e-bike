@@ -1,0 +1,48 @@
+.section-type {
+    justify-content: center;
+    font-family: Mulish, serif;
+    font-style: normal;
+    width: 75rem;
+    margin-left: auto;
+}
+
+.types{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.section-info {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #233348;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.bike-category {
+    display: flex;
+    justify-content: space-between;
+}
+.img-con{
+    display: block;
+}
+.img-container {
+    width: 166px;
+    height: 100px;
+}
+.img-container{
+    box-shadow: 10px 24px 54px rgba(0,0,0,0.06);
+    border-radius: 10px;
+    width: 227px;
+    height: 117px;
+}
+.img-container.select{
+    border: 2px solid #FCB72B;
+}
+.img-desc {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #233348;
+}

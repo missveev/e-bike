@@ -31,6 +31,10 @@
     background: #FCB72B;
     border-radius: 10px;
 }
+.next-arrow{
+    color: black;
+    font-size: 28px;
+}
 .mySlides{
     display: flex;
 }
@@ -41,9 +45,15 @@
     align-content: center;
 }
 .img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: white;
+    height: auto;
 }
 .img-photo{
+    margin-top: 5px;
     width: 133px;
     height: 133px;
     border-radius: 50%;

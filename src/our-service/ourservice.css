@@ -7,6 +7,10 @@
     justify-items: left;
     mix-blend-mode: overlay;
 }
+.slick-dots{
+    font-size: 28px;
+;
+}
 .ourservice{
     width: 100%;
     margin-top: 60px;
@@ -23,8 +27,6 @@
     border: 2px solid blue;
 }
 .more-options{
-    display: flex;
-    justify-content: flex-end;
     padding-right: 350px;
     padding-top: 20px;
 }

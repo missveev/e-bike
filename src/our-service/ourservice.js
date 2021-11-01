@@ -11,10 +11,7 @@ function Ourservice() {
     function SampleNextArrow(props) {
         const { onClick } = props;
         return (
-            <div className="more-options">
-                <div className="inactive" onClick={onClick}>
-                    <AiOutlineArrowLeft/>
-                </div>
+            <div className="">
                 <div className="active" onClick={onClick}>
                     <AiOutlineArrowRight/>
                 </div>
@@ -25,12 +22,9 @@ function Ourservice() {
     function SamplePrevArrow(props) {
         const { onClick } = props;
         return (
-            <div className="more-option">
-                <div className="inactive">
+            <div className="">
+                <div className="inactive" onClick={onClick}>
                     <AiOutlineArrowLeft/>
-                </div>
-                <div className="active" onClick={onClick}>
-                    <AiOutlineArrowRight/>
                 </div>
             </div>
 
@@ -38,6 +32,7 @@ function Ourservice() {
     }
 
     const settings={
+        dotsClass: "slick-dots slick-thumb",
         infinite: true,
         speed:500,
         slidesToShow:3,
@@ -73,7 +68,7 @@ function Ourservice() {
                 <div>
                     <div className="services">
                         <div className="service">
-                            <h2>Universal eBike Kit</h2>
+                            <h2>Universal eBike Gear</h2>
                         </div>
                         <img src={Bike} className="image-container" alt=""/>
                         <div className="value">
@@ -90,7 +85,7 @@ function Ourservice() {
                 <div>
                     <div className="services">
                         <div className="service">
-                            <h2>Universal eBike Kit</h2>
+                            <h2>Universal eBike Teknik</h2>
                         </div>
                         <img src={Bike} className="image-container" alt=""/>
                         <div className="value">
@@ -107,7 +102,7 @@ function Ourservice() {
                 <div>
                     <div className="services">
                         <div className="service">
-                            <h2>Universal eBike Kit</h2>
+                            <h2>Universal eBike Machine</h2>
                         </div>
                         <img src={Bike} className="image-container" alt=""/>
                         <div className="value">
@@ -124,7 +119,7 @@ function Ourservice() {
                 <div>
                     <div className="services">
                         <div className="service">
-                            <h2>Universal eBike Kit</h2>
+                            <h2>Universal eBike Services</h2>
                         </div>
                         <img src={Bike} className="image-container" alt=""/>
                         <div className="value">
@@ -141,7 +136,7 @@ function Ourservice() {
                 <div>
                     <div className="services">
                         <div className="service">
-                            <h2>Universal eBike Kit</h2>
+                            <h2>Universal eBike Model</h2>
                         </div>
                         <img src={Bike} className="image-container" alt=""/>
                         <div className="value">

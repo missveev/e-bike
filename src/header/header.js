@@ -1,6 +1,6 @@
 import React, { useEffect, useRef} from "react";
 import './header.css';
-import {Link} from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 import {ReactComponent as Ellipse} from "./ellipse.svg";
 import lottie from 'lottie-web';
 import Ourservice from "../our-service/ourservice";
@@ -33,7 +33,7 @@ function Header() {
                     </div>
                     {/* Options stays here*/}
                     <div className="options">
-                        <Link to ='/' className="option selected">Products</Link>
+                        <Link to ='/' className="option selected"  >Products</Link>
                         <Link to ='/' className="option">Bike Type</Link>
                         <Link to ='/' className="option">About Us</Link>
                         <Link to ='/' className="option">Testimonials</Link>

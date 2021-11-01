@@ -4,7 +4,8 @@ import Slider from "react-slick";
 import Rider from "./image 1.png";
 
 function Testimonial() {
-    var settings = {
+
+    const settings = {
         dots: true,
         infinite: true,
         speed: 500,

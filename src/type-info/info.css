@@ -39,9 +39,12 @@
 }
 
 .shape-contain {
+    position: absolute;
     mix-blend-mode: overlay;
     transform: matrix(-0.93,0.37,0.37,0.37,0.93,0,0);
-    position: absolute;
+    justify-content: right;
+    align-items: flex-end;
+    text-align: right;
 }
 .learn-more {
     padding: 10px 25px;

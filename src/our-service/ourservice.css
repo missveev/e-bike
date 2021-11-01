@@ -11,17 +11,25 @@
     width: 100%;
     margin-top: 60px;
 }
+.slider{
+    width: 75rem;
+    margin-left: auto;
+}
 .service-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-content: space-between;
+    border: 2px solid blue;
 }
 .more-options{
     display: flex;
     justify-content: flex-end;
     padding-right: 350px;
     padding-top: 20px;
+}
+.more-option{
+    display: none;
 }
 .inactive{
     display: flex;
@@ -34,6 +42,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
+
 }
 
 .active{
@@ -50,7 +59,9 @@
 }
 
 .services{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 380px;
     height: 400px;
     background: white;
@@ -65,10 +76,12 @@
     line-height: 25px;
     color: #233348;
     text-align: left;
+    margin:auto;
 }
 .image-container{
     width: 200px;
     height: 230px;
+    margin: auto;
 }
 .value{
     display: flex;
